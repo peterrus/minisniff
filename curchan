@@ -1,0 +1,1 @@
+iwlist wlan1mon channel | grep -i current

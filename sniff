@@ -1,0 +1,1 @@
+tshark -i wlan1mon -f ip -I -b filesize:100000 -w caps/`date +%Y-%m-%d.%H-%M`.pcap

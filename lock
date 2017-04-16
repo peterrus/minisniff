@@ -1,2 +1,2 @@
-airodump-ng wlan1mon --encrypt opn --channel $1
-
+iw dev wlan1mon set channel $1
+./curchan
