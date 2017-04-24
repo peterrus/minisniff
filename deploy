@@ -1,0 +1,3 @@
+rsync -rav -e ssh --include '*/' --include='*' --exclude='.git' \
+* \
+$1:~/minisniff/ 

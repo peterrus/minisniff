@@ -1,0 +1,3 @@
+rsync -rav -e ssh \
+$1:~/minisniff/caps/* \
+$2
